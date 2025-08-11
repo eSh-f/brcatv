@@ -19,16 +19,18 @@ const Header = () => {
   ];
 
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.leftColumn}>
-        {leftColumnArr.map((el, index) => (
-          <span key={index}>{el}</span>
-        ))}
-      </div>
-      <div className={styles.rightColumn}>
-        {rightColumnArr.map((el, index) => (
-          <span key={index}>{el}</span>
-        ))}
+    <div className={styles.theme}>
+      <div className={styles.wrapper}>
+        <div className={styles.leftColumn}>
+          {leftColumnArr.map((el, index) => (
+            <span key={index}>{el}</span>
+          ))}
+        </div>
+        <div className={styles.rightColumn}>
+          {rightColumnArr.map((el, index) => (
+            <span key={index}>{el}</span>
+          ))}
+        </div>
       </div>
     </div>
   );

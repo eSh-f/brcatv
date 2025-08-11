@@ -9,7 +9,7 @@ const Hero = () => {
         <img src={logo} alt="logo" />{" "}
       </div>
       <div className={styles.title}>
-        <h1>ВСТРЕЧАЙТЕ НОВЫЙ X-TERRA CT!</h1>
+        <h1>СТАНЬ ДИЛЛЕРОМ X-TERRA CT!</h1>
       </div>
       <div className={styles.description}>
         <p>Сделайте это прямо сейчас на специальных условиях!</p>
