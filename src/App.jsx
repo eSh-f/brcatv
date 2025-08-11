@@ -10,6 +10,7 @@ import VideoBlock from "./components/VideoBlock/VideoBlock.jsx";
 import Gallery from "./components/Gallery/Gallery.jsx";
 import DealersMap from "./components/DealersMap/DealersMap.jsx";
 import Dillers from "./components/Dilers/Dillers.jsx";
+import Reviews from "./components/Reviews/Reviews.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <VideoBlock />
       <Gallery />
       <DealersMap />
+      <Reviews />
       <Dillers />
     </>
   );

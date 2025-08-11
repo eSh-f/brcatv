@@ -15,14 +15,6 @@ const tabs = [
     позволяет уверенно себя чувствовать даже на самых сложных маршрутах.`,
     image: engineImg,
   },
-  {
-    id: "tech",
-    title: "Технологичность",
-    heading: "Пример заголовка",
-    subheading: "Подзаголовок",
-    description: "Описание второго преимущества.",
-    image: engineImg,
-  },
 ];
 
 export default function Advantages() {
