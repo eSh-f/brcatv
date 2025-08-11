@@ -11,20 +11,27 @@ import Gallery from "./components/Gallery/Gallery.jsx";
 import DealersMap from "./components/DealersMap/DealersMap.jsx";
 import Dillers from "./components/Dilers/Dillers.jsx";
 import Reviews from "./components/Reviews/Reviews.jsx";
+import HeroSlider from "./components/HeroSlider/HeroSlider.jsx";
+import AnimatedLogo from "./components/AnimetedLogo/AnimatedLogo.jsx";
+import Dark from "./components/AnimetedLogo/dark/Dark.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <HeroSlider />
+      <Dark />
       <ModelATV />
       <ATVInfo />
       <Advantages />
       <ATVSpecification />
       <SelectColor />
+      <AnimatedLogo />
       <VideoBlock />
       <Gallery />
       <DealersMap />
+      <Dark />
       <Reviews />
       <Dillers />
     </>

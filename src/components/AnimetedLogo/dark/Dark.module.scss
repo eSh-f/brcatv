@@ -1,0 +1,33 @@
+$logo-height: 60px;
+$gap: 28px;
+$speed: 15s;
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: $logo-height;
+  overflow: hidden;
+  background: #050505;
+}
+
+.reel {
+  display: flex;
+  animation: scroll $speed linear infinite;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+  flex-shrink: 0;
+}
+
+.item {
+  height: $logo-height;
+  flex: 0 0 auto;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}

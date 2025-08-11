@@ -36,14 +36,14 @@
 
 .pic {
   width: 100%;
-  height: 360px;       /* подправь под свои кадры */
+  height: 360px;
   background: #eee;
   overflow: hidden;
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* как на твоих скринах */
+    object-fit: cover;
     display: block;
   }
 }

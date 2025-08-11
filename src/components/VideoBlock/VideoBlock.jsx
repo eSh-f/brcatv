@@ -24,11 +24,9 @@ const VideoBlock = () => {
       </div>
       <div className={styles.underline}></div>
 
-      {/* стрелки */}
       <div className={`${styles.nav} ${styles.prev}`}>&lt;</div>
       <div className={`${styles.nav} ${styles.next}`}>&gt;</div>
 
-      {/* ряд карточек */}
       <div className={styles.row}>
         {videos.map((video, i) => (
           <div className={styles.card} key={i}>
@@ -40,7 +38,6 @@ const VideoBlock = () => {
         ))}
       </div>
 
-      {/* точки */}
       <div className={styles.dots}>
         <div className={`${styles.dot} ${styles.active}`}></div>
         <div className={styles.dot}></div>
